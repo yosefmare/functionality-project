@@ -98,7 +98,8 @@ function startNewGame() {
         4, 5, 6,
         7, 8, 9,
     ]
-    moveStack = []
+    moveStack = [];
+    barackTheGame = false
 }
 
 function countItemsThatHaveContent() {
