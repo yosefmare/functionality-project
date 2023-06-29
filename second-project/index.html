@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlyle.css">
+    <title> X O </title>
+</head>
+
+<body>
+    <div class="container">
+        <input id="screen" type="text">
+        <div class="board">
+            <div indexItem="1" class="item"></div>
+            <div indexItem="2" class="item"></div>
+            <div indexItem="3" class="item"></div>
+            <div indexItem="4" class="item"></div>
+            <div indexItem="5" class="item"></div>
+            <div indexItem="6" class="item"></div>
+            <div indexItem="7" class="item"></div>
+            <div indexItem="8" class="item"></div>
+            <div indexItem="9" class="item"></div>
+        </div>
+        <div class="btns-wrapper">
+            <button onclick="startNewGame()">New Game</button>
+            <button onclick="prevStep()">prev step</button>
+            <button onclick="countItemsThatHaveContent()">count items</button>
+            <button onclick="saveGameBoard()">save game</button>
+            <button class="btn5" onclick="loadGameBoard()">load board</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

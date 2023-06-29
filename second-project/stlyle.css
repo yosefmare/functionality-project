@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@500&display=swap');
+
+
+
+
+    body {
+        background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/pf-s125-ake7005-a.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=ac5ca8cb135fcaf792a495cc91808b1c");
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Ysabeau Infant', sans-serif;
+    }
+
+    .container {
+        margin: 50px auto;
+        height: 500px;
+        width: 500px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .board {
+        width: 80%;
+        height: 80%;
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 2fr);
+        align-items: center;
+    }
+
+    .item {
+        width: 70%;
+        height: 70%;
+        justify-self: center;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.113);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+    }
+
+    button{
+        margin-top: 20px;
+        background-image: url("https://www.myfreetextures.com/wp-content/uploads/2014/10/seamless-wood3.jpg");
+        color: aliceblue;
+        padding: 10px 20px;
+        margin-left: 10px   ;
+        border-radius: 10px;
+    }
+
+    #screen{
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        font-size: 20px;
+        text-align: center;
+        background-image: url("https://www.myfreetextures.com/wp-content/uploads/2014/10/seamless-wood3.jpg");
+        background-repeat: no-repeat;
+        color: aliceblue;
+    }
+
+    .btns-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .btns-wrapper .btn5{
+        grid-column: 1/ span 2;
+    }
