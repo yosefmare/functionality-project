@@ -109,7 +109,7 @@ function countItemsThatHaveContent() {
         }
     }
     Swal.fire(`the numbers of items that clicked in this game are ${totalItemsClicked}`)
-    totalItemsClicked = 0
+    totalItemsClicked = 0;
 }
 
 function saveGameBoard() {
