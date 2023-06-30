@@ -32,44 +32,44 @@ function someOneWin() {
     // horizontal
     if (boardTemplates[0] === boardTemplates[1] && boardTemplates[1] === boardTemplates[2]) {
         Swal.fire(`${boardTemplates[0]} wins`)
-        barackTheGame = turn;
+        barackTheGame = true;
         screen.value = "The game is finish"
 
 
     } else if (boardTemplates[3] === boardTemplates[4] && boardTemplates[4] === boardTemplates[5]) {
         Swal.fire(`${boardTemplates[5]} wins`)
-        barackTheGame = turn;
+        barackTheGame = true;
         screen.value = "The game is finish"
 
     } else if (boardTemplates[6] === boardTemplates[7] && boardTemplates[7] === boardTemplates[8]) {
         Swal.fire(`${boardTemplates[8]} wins`)
-        barackTheGame = turn;
+        barackTheGame = true;
         screen.value = "The game is finish"
 
         // vertical
     } else if (boardTemplates[1] === boardTemplates[4] && boardTemplates[4] === boardTemplates[7]) {
         Swal.fire(`${boardTemplates[7]} wins`)
-        barackTheGame = turn;
+        barackTheGame = true;
         screen.value = "The game is finish"
 
     } else if (boardTemplates[0] === boardTemplates[3] && boardTemplates[3] === boardTemplates[6]) {
         Swal.fire(`${boardTemplates[0]} wins`)
-        barackTheGame = turn;
+        barackTheGame = true;
         screen.value = "The game is finish"
     } else if (boardTemplates[2] === boardTemplates[5] && boardTemplates[5] === boardTemplates[8]) {
         Swal.fire(`${boardTemplates[8]} wins`)
-        barackTheGame = turn;
+        barackTheGame = true;
         screen.value = "The game is finish"
 
         // diagonal
     } else if (boardTemplates[0] === boardTemplates[4] && boardTemplates[4] === boardTemplates[8]) {
         Swal.fire(`${boardTemplates[8]} wins`)
-        barackTheGame = turn;
+        barackTheGame = true;
         screen.value = "The game is finish"
 
     } else if (boardTemplates[2] === boardTemplates[4] && boardTemplates[4] === boardTemplates[6]) {
         Swal.fire(`${boardTemplates[4]} wins`)
-        barackTheGame = turn;
+        barackTheGame = true;
         screen.value = "The game is finish"
     }
 }
