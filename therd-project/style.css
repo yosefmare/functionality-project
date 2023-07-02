@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(90deg, #19A7CE, #FEFF86);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 300px;
+    width: 200px;
+    background: #f7f7f7;
+}
+
+header {
+    height: 50%;
+    width: 100%;
+}
+
+#screen {
+    height: 50px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    direction: rtl;
+    font-size: 24px;
+}
+
+.btns-parent {
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button:nth-child(17) {
+    grid-column: 1/span 2;
+}
+
+button:nth-child(4),
+button:nth-child(8),
+button:nth-child(12),
+button:nth-child(16),
+button:nth-child(19) {
+    border: 1px solid #000;
+    background: #146C94;
+    color: #f7f7f7;
+}
